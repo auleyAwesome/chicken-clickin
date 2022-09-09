@@ -1,0 +1,55 @@
+/* ---Color Palette --- 
+--xanadu: #7d8570ff;
+--ebony: #646f58ff;
+--cream: #fffec2ff;
+--seashell: #fff4ecff;
+--rifle-green: #504b3aff; */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff4ecff;
+}
+
+p {
+    display: flex;
+}
+h1 {
+    font-size: 2em;
+    color: #646f58ff;
+    align-self: center;
+}
+
+img {
+    display: flex;
+    align-self: center;
+    width: 500px;
+    height: auto;
+}
+
+h2 {
+    font-size: 1em;
+    align-self: center;
+}
+
+button {
+    background-color: #504b3aff;
+    color: #fff4ecff;
+    text-align: center;
+    align-self: center;
+    width: 200px;
+    height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    border-radius: 12px;
+}
+
+input {
+    align-self: center;
+    width: 200px;
+}
